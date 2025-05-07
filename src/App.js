@@ -1,7 +1,12 @@
+import Navbar from './components/Navbar';
+import Hero from './components/Hero';
+import './output.css';
+
 function App() {
   return (
-    <div className="flex items-center justify-center min-h-screen bg-gradient-to-r from-purple-400 to-pink-500">
-      <h1 className="text-5xl font-bold text-white">Testing deployment to vercel!</h1>
+    <div>
+      <Navbar />
+      <Hero />
     </div>
   );
 }
