@@ -1,10 +1,10 @@
-import profilePic from "../images/Profile_picture.jpg"
+
 
 
 function Hero() {
     return (
       <section id="home" className="min-h-screen flex flex-col justify-center items-center text-white bg-gradient-to-r from-purple-800 via-black to-black pt-24 px-4 text-center">
-        <img src={profilePic} alt="profilePic" 
+        <img src="/images/Profile_picture.jpg"alt="profilePic" 
         
           className="w-32 h-32 rounded-full mb-6 border-4 border-purple-400"
         />
