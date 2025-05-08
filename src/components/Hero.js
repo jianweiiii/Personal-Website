@@ -12,7 +12,9 @@ function Hero() {
           I do <span className="text-purple-400">code</span> and make content about it!
         </h1>
         <p className="text-gray-300 mb-6 max-w-xl">
-          I’m a software engineer passionate about frontend and full-stack development.
+        Hi, I’m Jian Wei — a recent Software Engineering graduate with 1.5 years of hands-on experience building full-stack applications and AI-powered chatbots.
+        I’ve worked with technologies like JavaScript, Python, Node.js, and React, and applied NLP and machine learning in my final year project.
+        I’m passionate about building scalable systems that streamline workflows, and I’m eager to contribute to meaningful software while growing as a developer.
         </p>
         <div className="flex space-x-4">
           <a href="#contact" className="px-6 py-3 bg-purple-500 hover:bg-purple-600 rounded text-white">

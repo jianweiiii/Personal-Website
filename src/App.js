@@ -1,5 +1,7 @@
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
+import Skills from './components/Skills';
+import Experience from './components/Experience';
 import './output.css';
 
 function App() {
@@ -7,6 +9,8 @@ function App() {
     <div>
       <Navbar />
       <Hero />
+      <Skills/>
+      <Experience/>
     </div>
   );
 }
