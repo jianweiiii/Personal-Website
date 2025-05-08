@@ -40,35 +40,36 @@ const experiences = [
 function Experience() {
   return (
     <section id="experience" className="bg-black text-white py-16 px-6">
-      <h2 className="text-3xl md:text-4xl font-bold text-center mb-12">
-        Experience
+      <h2 className="text-4xl md:text-4xl font-bold text-center mb-12">
+        Internship Experience
       </h2>
       <div className="max-w-4xl mx-auto space-y-6">
         {experiences.map((exp, i) => (
           <div key={i} className="bg-zinc-900 rounded-lg p-6 shadow-md">
             {/* Roles */}
             {exp.roles.map((role, j) => (
-              <div key={j} className="mb-6">
-                <div className="flex justify-between flex-wrap gap-2 items-start mb-1">
-                  <div className="flex items-center gap-2">
-                    <img
-                      src={role.icon}
-                      alt="role icon"
-                      className="w-5 h-5 object-contain"
-                    />
-                    <p className="font-semibold text-white">{role.title}</p>
-                  </div>
-                  <span className="text-sm text-gray-400 whitespace-nowrap">
-                    {role.duration}
-                  </span>
-                </div>
-                <ul className="list-disc ml-5 text-sm text-gray-300 space-y-1">
-                  {role.points.map((point, k) => (
-                    <li key={k}>{point}</li>
-                  ))}
-                </ul>
-              </div>
-            ))}
+  <div key={j} className="mb-6">
+    <div className="flex justify-between flex-wrap gap-2 items-start mb-1">
+      <div className="flex items-center gap-2">
+      <img
+        src={role.icon}
+        alt="role icon"
+        className="w-10 h-10 object-contain shrink-0 px-4"
+        style={{ height: '80px' }}
+      />
+      <p className="font-semibold text-white">{role.title}</p>
+      </div>
+      <span className="text-sm text-gray-400 whitespace-nowrap">
+        {role.duration}
+      </span>
+      </div>
+      <ul className="list-disc list-inside text-sm text-white space-y-1">
+  {role.points.map((point, k) => (
+    <li key={k}>{point}</li>
+  ))}
+</ul>
+    </div>
+    ))}
           </div>
         ))}
       </div>

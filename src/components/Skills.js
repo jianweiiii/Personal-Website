@@ -12,13 +12,13 @@ const skills = [
         <h2 className="text-sm tracking-widest uppercase text-gray-400 mb-8">
           Experience With
         </h2>
-        <div className="flex justify-center">
+        <div className="flex justify-center items-center flex-wrap">
           {skills.map((skill, index) => (
             <img
               key={index}
               src={skill.icon}
               alt={skill.name}
-              className="w-12 h-12 grayscale hover:grayscale-0 transition duration-300"
+              className="w-12 h-12 grayscale hover:grayscale-0 transition duration-300 px-4"
             />
           ))}
         </div>
